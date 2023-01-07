@@ -1,0 +1,501 @@
+/**
+ * @name Sam's Mods
+ * @author Example.User#1111
+ * @version 1.0
+ * @Hodpodge of themes forced to cooperate against their will
+**/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
+@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css); */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
+@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+.appDevToolsWrapper-1QxdQf {
+    margin: 20px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0); 
+    border-color: #f04747;
+}
+:root {
+    --custom-background: rgba(0, 0, 0, 0);
+    --background-radius: 32px;
+    --backdrop: rgba(0, 0, 0, 0.178);
+    --blurple: #ff004060;
+    --blurple3: #ff004052;
+    --grey: #2e2c2c4f;
+    --lightgrey: #000000;
+    --darkgrey: #0a0a0a;
+    --red: #fd1547;
+    --blurple-gradient: linear-gradient(0deg, rgb(24, 24, 24) 0%, rgba(202, 15, 15, 0.671) 70%);
+    --darkgrey-gradient: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(59, 59, 59) 100%);
+    --settingsmodalbackground: rgba(0, 0, 0, 0.144);
+    --transparencycolor: 0, 0, 0;
+    --scrollbar-thin-thumb: var(--blurple3);
+    --scrollbar-auto-track: var(--darkgrey);
+    --scrollbar-auto-thumb: var(--blurple3);
+    --scrollbar-auto-scrollbar-color-thumb: var(--blurple3);
+    --scrollbar-auto-scrollbar-color-track: var(--blurple3);
+    --transparencyalpha: 100%;
+    --messagetransparency: 1;
+    --guildchanneltransparency: 0.5px;
+    --chatinputtransparency: 0;
+    --memberlisttransparency: 0;
+    --accentcolor: 255, 0, 64;
+    --backgroundposition: left;
+    --backgroundsize: cover;
+    --backgroundblur: 0px;
+    --font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --default: transparent;
+    --settingsicons: 1; 
+    --radius: 8px;
+    --spacing: 6px;
+    --guildicon-size: 48;
+    --enable-if-using-favorites-experiment: 1;
+    --guildlist-collapse: 1;
+    --slide-window-on-hover: 0;
+    --float-sidebar-width: 48;
+    --sidebar-hover-width: 240px;
+    --sidebar-hover-delay: 0.2s;
+    --sidebar-transition-duration: 0.4s;
+    --sidebar-window-gap: 16px;
+    --sidebar-border-radius: 16px;
+    --sidebar-usersettings-width: 30vw;
+    --float-members-width: 65px;
+    --members-hover-width: 240px;
+    --members-hover-delay: 1.5s;
+    --members-transition-duration: 0.4s;
+    --topic-opacity: 1;
+    --toolbar-visibility: flex;
+    --textarea-buttons-gif: flex;
+    --textarea-buttons-sticker: flex;
+    --textarea-buttons-gift: none;
+    --transparencycolor: 0, 0, 0;
+    --transparencyalpha: 0.01;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.15;
+    --chatinputtransparency: 0.0;
+    --memberlisttransparency: 0.0;
+    --accentcolor: 255, 0, 64, 0.261;
+    --textshadow: transparent;
+    --popout: var(--backdrop);
+    /* --popoutposition: var(--backgroundposition);
+    --popoutsize: var(--backgroundsize);
+    --popoutblur: var(--backgroundblur); */
+    --backdrop: rgba(0, 0, 0, 0.0); 
+    --backdropposition: center;
+    --backdropsize: cover;
+    --textbrightest: 255, 255, 255;
+    --textbrighter: 222, 222, 222;
+    --textbright: 200, 200, 200;
+    --textdark: 160, 160, 160;
+    --textdarker: 125, 125, 125;
+    --textdarkest: 90, 90, 90;
+    --float-guildlist-width-correction: 0px;
+    --home-icon: url('https://i.imgur.com/w88O4bb.png');
+    --favorites-icon: url('https://i.imgur.com/XyyvpsS.png');
+    --button-positive-background-hover: rgba(69, 69, 69, 0.562);
+    --button-positive-background-active: rgba(85, 78, 78, 0.623);
+    --brand-experiment: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
+    --brand-experiment-100: hsl(359, calc(var(--saturation-factor, 1)*41%), 98%);
+    --brand-experiment-130: hsl(359, calc(var(--saturation-factor, 1)*41%), 92.8%);
+    --brand-experiment-160: hsl(359, calc(var(--saturation-factor, 1)*41%), 87.7%);
+    --brand-experiment-200: hsl(359, calc(var(--saturation-factor, 1)*41%), 82.5%);
+    --brand-experiment-230: hsl(359, calc(var(--saturation-factor, 1)*41%), 77.3%);
+    --brand-experiment-260: hsl(359, calc(var(--saturation-factor, 1)*41%), 72.2%);
+    --brand-experiment-300: hsl(359, calc(var(--saturation-factor, 1)*41%), 67%);
+    --brand-experiment-330: hsl(359, calc(var(--saturation-factor, 1)*41%), 61.8%);
+    --brand-experiment-360: hsl(359, calc(var(--saturation-factor, 1)*41%), 56.7%);
+    --brand-experiment-400: hsl(359, calc(var(--saturation-factor, 1)*41%), 51.5%);
+    --brand-experiment-430: hsl(359, calc(var(--saturation-factor, 1)*41%), 46.3%);
+    --brand-experiment-460: hsl(359, calc(var(--saturation-factor, 1)*41%), 41.2%);
+    --brand-experiment-500: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
+    --brand-experiment-530: hsl(359, calc(var(--saturation-factor, 1)*30.8%), 33.3%);
+    --brand-experiment-560: hsl(359, calc(var(--saturation-factor, 1)*24.6%), 30.5%);
+    --brand-experiment-600: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 27.8%);
+    --brand-experiment-630: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 25%);
+    --brand-experiment-660: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 22.3%);
+    --brand-experiment-700: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 19.5%);
+    --brand-experiment-730: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 16.8%);
+    --brand-experiment-760: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 14%);
+    --brand-experiment-800: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 11.3%);
+    --brand-experiment-830: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 8.5%);
+    --brand-experiment-860: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 5.8%);
+    --brand-experiment-900: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 3%);
+    --brand-experiment-05a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.05);
+    --brand-experiment-10a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.1);
+    --brand-experiment-15a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.15);
+    --brand-experiment-20a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.2);
+    --brand-experiment-25a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.25);
+    --brand-experiment-30a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.3);
+    --brand-experiment-35a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.35);
+    --brand-experiment-40a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.4);
+    --brand-experiment-45a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.45);
+    --brand-experiment-50a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.5);
+    --brand-experiment-55a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.55);
+    --brand-experiment-60a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.6);
+    --brand-experiment-65a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.65);
+    --brand-experiment-70a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.7);
+    --brand-experiment-75a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.75);
+    --brand-experiment-80a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.8);
+    --brand-experiment-85a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.85);
+    --brand-experiment-90a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.9);
+    --brand-experiment-95a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.95);
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-phone-color: #0099ff;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-visible: none;
+    /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --badge-size: 22px;
+    --badge-margin: 1.5px;
+    --badges-everywhere-size: 15px;
+    --settingsmodalbackground: rgba(0, 0, 0, 0);
+    --settingsmodalwidth: 90vw;
+    --settings-max-width: 75%;
+    --settingsmodalheight: 90vh;
+    --settings-max-height: 75%;
+    --accent: 50, 131, 207;
+    --message-padding: 10px;
+    --message-spacing: 10px;
+}
+/* Better Discord */
+.bd-notice {
+    border-radius: var(--radius) !important;
+    margin-right: var(--spacing);
+    background: var(--blurple) !important;
+}
+
+#bd-notices {
+    position: absolute;
+}
+
+.bd-notice-content {
+    padding: 16px;
+}
+
+/* Channel Tabs */
+#channelTabs-container {
+    --tabcontainer: radial-gradient(circle, rgba(34, 31, 29, 0.979) 30%, rgb(0, 0, 0) 70%);
+    background: var(--tabcontainer) !important;
+    border-color:rgba(0, 0, 0, 0.616);
+    /* border-width: 3px !important; */
+    /* padding: 0% !important;  */
+    border: 3px solid rgba(0, 0, 0, 0.795) !important;
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.829) !important;
+}
+.channelTabs-tab.channelTabs-selected {
+    background: var(--blurple) !important;
+    color: rgba(0, 0, 0, 0.562) !important;
+}
+.channelTabs-tab {
+    border-radius: 20px !important;
+}
+
+.channelTabs-newTab:hover,
+.channelTabs-tabNavLeft:hover,
+.channelTabs-tabNavRight:hover {
+    border-radius: 20px !important;
+    color: #faa61a !important;
+    /* border: 2px #faa61a !important; */
+}
+.channelTabs-newTab:hover,
+.channelTabs-tabNavLeft,
+.channelTabs-tabNavRight {
+    border-radius: 32px !important;
+    color: #faa61a !important;
+    /* border: 2px #faa61a !important; */
+}
+.channelTabs-tabName {
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.channelTabs-closeTab,
+.channelTabs-tabNavClose,
+#channelTabs-settingsMenu:hover {
+    border-radius: 32px;
+    background: transparent !important;
+    color: #faa61a !important;
+    border: 2px #faa61a !important;
+}
+
+.channelTabs-closeTab:hover {
+    border-radius: 32px; 
+    background: transparent !important;
+    /* border: 2px solid #faa61a !important; */
+    color: transparent !important;
+}
+
+#channelTabs-settingsMenu {
+    margin-right: 10px;
+    margin-top: 2px;
+    display: inside;
+    align-items: center;
+}
+
+.channelTabs-settingsIcon {
+    --interactive-normal: #faa61a !important;
+    width: 20px;
+}
+/* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
+/* If you wish to remove the Folder Icons; or if it breaks one of your plug-ins, remove everything under here: */
+.closedFolderIconWrapper-3tRb2d {
+    display: none !important;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: fixed;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.6);
+    filter: brightness(300) saturate(5);
+}
+/* The variables are used when the window is at the set sizes, each media query can be edited/deleted */
+@media (max-width:700px) {
+    :root {
+        --topic-opacity: 0;
+        --toolbar-visibility: none;
+        --textarea-buttons-gif: none;
+        --textarea-buttons-sticker: none;
+    }
+}
+
+.contentWrapper-3vHNP2 {
+    background-color: rgba(54, 54, 54, 0.808) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (max-width:500px) {
+    :root {
+        --guildicon-size: 40;
+        --float-members-width: 0;
+    }
+}
+
+
+@media (max-width:300px) {
+    :root {
+        --guildlist-collapse: 1;
+    }
+}
+
+.sidebarRegionScroller-FXiQOh {
+    background-color: rgba(54, 54, 54, 0.534) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 2%, 2% !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+.scroller-2MALzE {
+    background-color: rgba(54, 54, 54, 0.534) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.scroller-18M1mG {
+    background-color: rgba(54, 54, 54, 0.534) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.sidebarScrollable-2mW9Ls .scroller-3_YDR2 {
+    border-radius: var(--radius);
+    background: var(--blurple);
+    padding-left: 2px;
+}
+
+.homeIcon-r0w4ny {
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-size: 120% !important;
+    background-image: var(--home-icon) !important;
+    width: 100px !important;
+    height: 100px !important;
+    color: rgba(7, 0, 0, 0);
+    background-color: trasparient !important;
+    background-color: var(--blurple);
+    box-sizing: border-box !important;
+}
+
+.favoriteIcon-2kWmTP {
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-size: 100% !important;
+    background-image: var(--favorites-icon) !important;
+    width: 100px !important;
+    height: 100px !important;
+    color: rgba(7, 0, 0, 0);
+    background-color: var(--blurple) !important;
+    box-sizing: border-box !important;
+}
+
+.childWrapper-1j_1ub {
+    -webkit-transition: background-color .15s ease-out, color .15s ease-out;
+    transition: background-color .15s ease-out, color .15s ease-out;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
+    box-sizing: border-box 100px !important;
+}
+
+.svg-2zuE5p {
+    box-sizing: content-box;
+    position: relative !important;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(252, 252, 252, 0.425);
+}
+
+.messagesPopout-eVzQcI,
+.messageGroupWrapper-1jf_7C {
+    backdrop-filter: blur(50%) !important;
+    background-image: url(https://i.imgur.com/o9Fs83z.jpg) !important;
+    background-size: 400% !important;
+    background-repeat: no-repeat !important;
+}
+
+.scroller-145h9c {
+    backdrop-filter: blur(50%) !important;
+    background-image: url(https://i.imgur.com/o9Fs83z.jpg) !important;
+    background-size: 400% !important;
+    background-repeat: no-repeat !important;
+}
+.platform-win .winButton-3UMjdg {
+    border-radius: var(--radius);
+    height: 32px !important;
+}
+.channelTabs-settingsIcon {
+    max-width: 32px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    max-height: 32px;
+    color: #faa61a !important;
+    background: transparent !important;
+}
+.winButton-3UMjdg:not(:last-child)>svg {
+    display: none;
+}
+
+.winButton-3UMjdg:not(:last-child)::after {
+    content: "";
+    border-radius: 32px;
+    pointer-events: fill;
+}
+
+.winButton-3UMjdg:hover {
+    background-color: var(--background-tertiary);
+}
+
+.winButtonClose-3Q8ZH5 {
+    margin-right: -10px;
+}
+
+.winButtonClose-3Q8ZH5::after {
+    padding: 6px;
+    background-image: url("https://i.imgur.com/WAbJScJ.png");
+    background-size: 100%;
+}
+
+.winButtonClose-3Q8ZH5:hover::after {
+    background-image: url("https://i.imgur.com/ipwGE9a.png");
+    background-size: 100%;
+}
+
+.winButtonMinMax-3RsPUg:nth-child(3)::after {
+    background-color: rgb(250, 166, 26);
+    padding: 5px;
+}
+
+.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+    background-color: rgba(250, 168, 26, 0.8980392157);
+}
+
+.winButtonMinMax-3RsPUg:last-child {
+    color: #faa61a;
+}
+
+.winButtonMinMax-3RsPUg:last-child:hover {
+    color: rgba(250, 168, 26, 0.8980392157);
+}
+
+.winButtonMinMax-3RsPUg:last-child rect {
+    height: 3px;
+    rx: 2px;
+}
+
+.full-motion .animatorTop-3ltI52.didRender-2SiRlm {
+    -webkit-transform: unset !important;
+    transform: unset !important;
+    -webkit-transition: opacity 0.15s linear 0s;
+    transition: opacity 0.15s linear 0s;
+}
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--blurple);
+}
+:root .panels-3wFtMD,
+.container-YkUktl,
+.flex-2S1XBF {
+    -webkit-box-orient: horizontal !important;;
+    -webkit-box-direction: normal;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(15%, var(--background-tertiary)));
+    background: linear-gradient(transparent, var(--background-tertiary) 15%);
+}
+.popout-1KHNAq {
+    -webkit-text-stroke-color: var(--blurple);
+    -webkit-text-fill-color: aliceblue;
+    -webkit-column-rule-color: red;
+    -webkit-box-sizing: border-box;
+    box-sizing: content-box;
+    background-color: rgba(54, 54, 54, 0.616) !important;
+    backdrop-filter: blur(5px) !important;
+    box-shadow: 0 0 3px 0 rgba(245, 245, 245, 0.5) !important;
+    border-radius: 0 0 4px 4px;
+}
+:root .panels-3wFtMD,
+.container-YkUktl,
+.flex-2S1XBF {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(15%, var(--background-tertiary)));
+    background: transparent;
+}
+#channelTabs-container{padding:3px;border-color:#000000;border-width: 3px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);border-color: #000000;border-width: 3px;}
+.wrapper-1_HaEi{margin-top:var(--spacing);border-color: #000000; border-width: 3px;}
+.app-2CXKsg{background:var(--blurple);border-color: #000000; border-width: 3px;}
+#channelTabs-container{
+    border-radius:20px !important;
+    border-color:rgb(0, 0, 0);
+    margin-bottom:calc(var(--spacing) 3px);
+    padding:0px!important;
+}
