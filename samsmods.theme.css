@@ -490,7 +490,7 @@
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(15%, var(--background-tertiary)));
     background: transparent;
 }
-#channelTabs-container{padding:3px;border-color:#000000;border-width: 3px;}
+/*#channelTabs-container{padding:3px;border-color:#000000;border-width: 3px;}
 .chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);border-color: #000000;border-width: 3px;}
 .wrapper-1_HaEi{margin-top:var(--spacing);border-color: #000000; border-width: 3px;}
 .app-2CXKsg{background:var(--blurple);border-color: #000000; border-width: 3px;}
@@ -499,4 +499,4 @@
     border-color:rgb(0, 0, 0);
     margin-bottom:calc(var(--spacing) 3px);
     padding:0px!important;
-}
+}*/
