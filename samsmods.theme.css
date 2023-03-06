@@ -192,12 +192,12 @@
 }
 
 /* Channel Tabs */
-#channelTabs-container {
+/*#channelTabs-container {
     --tabcontainer: radial-gradient(circle, rgba(34, 31, 29, 0.979) 30%, rgb(0, 0, 0) 70%);
     background: var(--tabcontainer) !important;
     border-color:rgba(0, 0, 0, 0.616);
     /* border-width: 3px !important; */
-    /* padding: 0% !important;  */
+    /* padding: 0% !important;  
     border: 3px solid rgba(0, 0, 0, 0.795) !important;
     box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.829) !important;
 }
@@ -214,14 +214,14 @@
 .channelTabs-tabNavRight:hover {
     border-radius: 20px !important;
     color: #faa61a !important;
-    /* border: 2px #faa61a !important; */
+    border: 2px #faa61a !important;
 }
 .channelTabs-newTab:hover,
 .channelTabs-tabNavLeft,
 .channelTabs-tabNavRight {
     border-radius: 32px !important;
     color: #faa61a !important;
-    /* border: 2px #faa61a !important; */
+    border: 2px #faa61a !important; 
 }
 .channelTabs-tabName {
     font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -241,7 +241,7 @@
 .channelTabs-closeTab:hover {
     border-radius: 32px; 
     background: transparent !important;
-    /* border: 2px solid #faa61a !important; */
+    border: 2px solid #faa61a !important;
     color: transparent !important;
 }
 
@@ -255,7 +255,7 @@
 .channelTabs-settingsIcon {
     --interactive-normal: #faa61a !important;
     width: 20px;
-}
+} */
 /* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
 /* If you wish to remove the Folder Icons; or if it breaks one of your plug-ins, remove everything under here: */
 .closedFolderIconWrapper-3tRb2d {
