@@ -26,12 +26,12 @@
 @import url('https://warrayquipsome.github.io/Chillax/chillax.css');
 
 /*removable addons*/
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
+/*@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');*/
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);*/
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
@@ -45,7 +45,7 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 @import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
 /*additional addons*/ /*(remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css")
 
 
 
