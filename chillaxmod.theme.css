@@ -23,10 +23,12 @@
 */
 
 /*chillax*/
+@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+
 @import url('https://warrayquipsome.github.io/Chillax/chillax.css');
 
 /*removable addons*/
-/*@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');*/
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
@@ -42,8 +44,7 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
-/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);*/
-@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 /*additional addons*/ /*(remove the both * to use)*/
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css")
 
