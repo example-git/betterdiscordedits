@@ -41,8 +41,8 @@
 /*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);*/
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
-/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);*/
-/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
+@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
+/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);*/
 @import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
 /*additional addons*/ /*(remove the both * to use)*/
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css")
@@ -70,9 +70,9 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-       --user-name: "King";
+       /*--user-name: "King";
        --font-name: Poppins;
-       --font-size: 13px;
+       --font-size: 13px;*/
          --custom-background: rgba(0, 0, 0, 0);
          --background-radius: 32px;
          --backdrop: rgba(0, 0, 0, 0.178);
@@ -113,9 +113,9 @@
          --sidebar-hover-width: 240px;
          --sidebar-hover-delay: 0.2s;
          --sidebar-transition-duration: 0.4s;
-         --sidebar-window-gap: 16px;
+         /*--sidebar-window-gap: 16px;
          --sidebar-border-radius: 16px;
-         --sidebar-usersettings-width: 30vw;
+         --sidebar-usersettings-width: 30vw;*/
          --float-members-width: 65px;
          --members-hover-width: 240px;
          --members-hover-delay: 1.5s;
@@ -215,11 +215,6 @@
          --badge-size: 22px;
          --badge-margin: 1.5px;
          --badges-everywhere-size: 15px;
-         --settingsmodalbackground: rgba(0, 0, 0, 0);
-         --settingsmodalwidth: 90vw;
-         --settings-max-width: 75%;
-         --settingsmodalheight: 90vh;
-         --settings-max-height: 75%;
          --accent: 50, 131, 207;
          --message-padding: 10px;
          --message-spacing: 10px;     
@@ -243,9 +238,9 @@
 
 
 /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolor:	  251, 84, 84;	
+/*  --accentcolor:	  251, 84, 84;	*/
 /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolorV2:     #fb5454;
+/*  --accentcolorV2:     #fb5454;*/
      
      
 /*settings modal root*/
@@ -255,14 +250,6 @@
   --settingsmodalheight: 80vh;	
 
      
-/*background image*/ /*(replace the link to use)*/
-  --background-image:var(--de-suggested-bg);
-/*bg dev suggestions*/
-  --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
-  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
-/*modern background selection*/
-  --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
-  --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
 }
 
 
@@ -312,31 +299,11 @@
 .theme-light{
 --FG-cards-banner-background: transparent!important;
 } 
-
-
-
 .appDevToolsWrapper-1QxdQf {
     margin: 20px;
     border-radius: 20px;
     background: rgb(0, 0, 0); 
     border-color: #f04747;
-}
-:root {
-
-}
-/* Better Discord */
-.bd-notice {
-    border-radius: var(--radius) !important;
-    margin-right: var(--spacing);
-    background: var(--blurple) !important;
-}
-
-#bd-notices {
-    position: absolute;
-}
-
-.bd-notice-content {
-    padding: 16px;
 }
 
 /* Channel Tabs */
@@ -540,76 +507,7 @@
 .platform-win .winButton-3UMjdg {
     border-radius: var(--radius);
     height: 32px !important;
-}
-.channelTabs-settingsIcon {
-    max-width: 32px;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    max-height: 32px;
-    color: #faa61a !important;
-    background: transparent !important;
-}
-.winButton-3UMjdg:not(:last-child)>svg {
-    display: none;
-}
 
-.winButton-3UMjdg:not(:last-child)::after {
-    content: "";
-    border-radius: 32px;
-    pointer-events: fill;
-}
-
-.winButton-3UMjdg:hover {
-    background-color: var(--background-tertiary);
-}
-
-.winButtonClose-3Q8ZH5 {
-    margin-right: -10px;
-}
-
-.winButtonClose-3Q8ZH5::after {
-    padding: 6px;
-    background-image: url("https://i.imgur.com/WAbJScJ.png");
-    background-size: 100%;
-}
-
-.winButtonClose-3Q8ZH5:hover::after {
-    background-image: url("https://i.imgur.com/ipwGE9a.png");
-    background-size: 100%;
-}
-
-.winButtonMinMax-3RsPUg:nth-child(3)::after {
-    background-color: rgb(250, 166, 26);
-    padding: 5px;
-}
-
-.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
-    background-color: rgba(250, 168, 26, 0.8980392157);
-}
-
-.winButtonMinMax-3RsPUg:last-child {
-    color: #faa61a;
-}
-
-.winButtonMinMax-3RsPUg:last-child:hover {
-    color: rgba(250, 168, 26, 0.8980392157);
-}
-
-.winButtonMinMax-3RsPUg:last-child rect {
-    height: 3px;
-    rx: 2px;
-}
-
-.full-motion .animatorTop-3ltI52.didRender-2SiRlm {
-    -webkit-transform: unset !important;
-    transform: unset !important;
-    -webkit-transition: opacity 0.15s linear 0s;
-    transition: opacity 0.15s linear 0s;
-}
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ {
-    background-color: var(--blurple);
 }
 :root .panels-3wFtMD,
 .container-YkUktl,
