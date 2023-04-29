@@ -1,57 +1,24 @@
 /**
- * @name Chillax
- * @author Chillax Squad
- * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.9
- * @invite DrfX6286kF
- * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
- * @source https://github.com/warrayquipsome/Chillax
- * @donate https://www.paypal.me/wqqt9
-*/
-
-/*
-     ⸙  ────     ────     ───── ❝ 𝐚𝐥𝐥 𝐫𝐢𝐠𝐡𝐭 𝐡𝐞𝐫𝐞 ❞ ─────    ────     ────  ⸙
-  ╭─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻🂡༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╮
-          █████╗   ██╗  ██╗  ██╗  ██╗      ██╗       █████╗   ██╗  ██╗       
-         ██╔══██╗  ██║  ██║  ██║  ██║      ██║      ██╔══██╗  ╚██╗██╔╝       
-  ||     ██║  ╚═╝  ███████║  ██║  ██║      ██║      ███████║   ╚███╔╝      ||
-         ██║  ██╗  ██╔══██║  ██║  ██║      ██║      ██╔══██║   ██╔██╗        
-         ╚█████╔╝  ██║  ██║  ██║  ███████╗ ███████╗ ██║  ██║  ██╔╝╚██╗       
-          ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝       
-  ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
-
-*/
-
-/*chillax*/
-@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
-
-@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
-
-/*removable addons*/
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");*/
+ * @name Sam's Mods
+ * @author Example.User#1111
+ * @version 1.05
+ * @Hodpodge of themes forced to cooperate against their will
+ * @source https://github.com/example-git/betterdiscordedits
+**/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-/*@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
-@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");*/
-/**@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
+@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
-/*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);*/
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
-/*@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
-/*additional addons*/ /*(remove the both * to use)*/
-@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css")
+@import url("https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css");
+@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 
-
-
-/*Chillax Roots*/
-/*window*/ /*dark mode*/
 :root.theme-dark {
   --window-margin: 20px; /*must be above 20px*/
   --window-colour: #0009;
@@ -59,200 +26,175 @@
   --window-border-radius: 10px;
   --sidebar-colour: rgb(36, 36, 36);
 }
-/*window*/ /*light mode*/
-:root.theme-light {
-  --window-margin: 20px; /*must be above 20px*/
-  --window-colour: rgba(255, 255, 255, 0.6);
-  --window-blur: 5px;
-  --window-border-radius: 10px;
-  --sidebar-colour: rgb(209, 209, 209);
-}
 
-
-/*roots*/ /*both dark and light*/
 :root {
-       /*--user-name: "King";
-       --font-name: Poppins;
-       --font-size: 13px;*/
-         --custom-background: rgba(0, 0, 0, 0);
-         --background-radius: 32px;
-         --backdrop: rgba(0, 0, 0, 0.178);
-         --blurple: #ff004060;
-         --blurple3: #ff004052;
-         --grey: #2e2c2c4f;
-         --lightgrey: #000000;
-         --darkgrey: #0a0a0a;
-         --red: #fd1547;
-         --blurple-gradient: linear-gradient(0deg, rgb(24, 24, 24) 0%, rgba(202, 15, 15, 0.671) 70%);
-         --darkgrey-gradient: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(59, 59, 59) 100%);
-         --settingsmodalbackground: rgba(0, 0, 0, 0.144);
-         --transparencycolor: 0, 0, 0;
-         --scrollbar-thin-thumb: var(--blurple3);
-         --scrollbar-auto-track: var(--darkgrey);
-         --scrollbar-auto-thumb: var(--blurple3);
-         --scrollbar-auto-scrollbar-color-thumb: var(--blurple3);
-         --scrollbar-auto-scrollbar-color-track: var(--blurple3);
-         --transparencyalpha: 100%;
-         --messagetransparency: 1;
-         --guildchanneltransparency: 0.5px;
-         --chatinputtransparency: 0;
-         --memberlisttransparency: 0;
-         --accentcolor: 255, 0, 64;
-         --backgroundposition: left;
-         --backgroundsize: cover;
-         --backgroundblur: 0px;
-         --font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-         --default: transparent;
-         --settingsicons: 1; 
-         --radius: 8px;
-         --spacing: 6px;
-         --guildicon-size: 48;
-         --enable-if-using-favorites-experiment: 1;
-         --guildlist-collapse: 1;
-         --slide-window-on-hover: 0;
-         --float-sidebar-width: 48;
-         --sidebar-hover-width: 240px;
-         --sidebar-hover-delay: 0.2s;
-         --sidebar-transition-duration: 0.4s;
-         /*--sidebar-window-gap: 16px;
-         --sidebar-border-radius: 16px;
-         --sidebar-usersettings-width: 30vw;*/
-         --float-members-width: 65px;
-         --members-hover-width: 240px;
-         --members-hover-delay: 1.5s;
-         --members-transition-duration: 0.4s;
-         --topic-opacity: 1;
-         --toolbar-visibility: flex;
-         --textarea-buttons-gif: flex;
-         --textarea-buttons-sticker: flex;
-         --textarea-buttons-gift: none;
-         --transparencycolor: 0, 0, 0;
-         --transparencyalpha: 0.01;
-         --messagetransparency: 0.5;
-         --guildchanneltransparency: 0.15;
-         --chatinputtransparency: 0.0;
-         --memberlisttransparency: 0.0;
-         --accentcolor: 255, 0, 64, 0.261;
-         --textshadow: transparent;
-         --popout: var(--backdrop);
-         /* --popoutposition: var(--backgroundposition);
-         --popoutsize: var(--backgroundsize);
-         --popoutblur: var(--backgroundblur); */
-         --backdrop: rgba(0, 0, 0, 0.0); 
-         --backdropposition: center;
-         --backdropsize: cover;
-         --textbrightest: 255, 255, 255;
-         --textbrighter: 222, 222, 222;
-         --textbright: 200, 200, 200;
-         --textdark: 160, 160, 160;
-         --textdarker: 125, 125, 125;
-         --textdarkest: 90, 90, 90;
-         --float-guildlist-width-correction: 0px;
-         --home-icon: url('https://i.imgur.com/w88O4bb.png');
-         --favorites-icon: url('https://i.imgur.com/XyyvpsS.png');
-         --button-positive-background-hover: rgba(69, 69, 69, 0.562);
-         --button-positive-background-active: rgba(85, 78, 78, 0.623);
-         --brand-experiment: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
-         --brand-experiment-100: hsl(359, calc(var(--saturation-factor, 1)*41%), 98%);
-         --brand-experiment-130: hsl(359, calc(var(--saturation-factor, 1)*41%), 92.8%);
-         --brand-experiment-160: hsl(359, calc(var(--saturation-factor, 1)*41%), 87.7%);
-         --brand-experiment-200: hsl(359, calc(var(--saturation-factor, 1)*41%), 82.5%);
-         --brand-experiment-230: hsl(359, calc(var(--saturation-factor, 1)*41%), 77.3%);
-         --brand-experiment-260: hsl(359, calc(var(--saturation-factor, 1)*41%), 72.2%);
-         --brand-experiment-300: hsl(359, calc(var(--saturation-factor, 1)*41%), 67%);
-         --brand-experiment-330: hsl(359, calc(var(--saturation-factor, 1)*41%), 61.8%);
-         --brand-experiment-360: hsl(359, calc(var(--saturation-factor, 1)*41%), 56.7%);
-         --brand-experiment-400: hsl(359, calc(var(--saturation-factor, 1)*41%), 51.5%);
-         --brand-experiment-430: hsl(359, calc(var(--saturation-factor, 1)*41%), 46.3%);
-         --brand-experiment-460: hsl(359, calc(var(--saturation-factor, 1)*41%), 41.2%);
-         --brand-experiment-500: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
-         --brand-experiment-530: hsl(359, calc(var(--saturation-factor, 1)*30.8%), 33.3%);
-         --brand-experiment-560: hsl(359, calc(var(--saturation-factor, 1)*24.6%), 30.5%);
-         --brand-experiment-600: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 27.8%);
-         --brand-experiment-630: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 25%);
-         --brand-experiment-660: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 22.3%);
-         --brand-experiment-700: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 19.5%);
-         --brand-experiment-730: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 16.8%);
-         --brand-experiment-760: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 14%);
-         --brand-experiment-800: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 11.3%);
-         --brand-experiment-830: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 8.5%);
-         --brand-experiment-860: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 5.8%);
-         --brand-experiment-900: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 3%);
-         --brand-experiment-05a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.05);
-         --brand-experiment-10a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.1);
-         --brand-experiment-15a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.15);
-         --brand-experiment-20a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.2);
-         --brand-experiment-25a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.25);
-         --brand-experiment-30a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.3);
-         --brand-experiment-35a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.35);
-         --brand-experiment-40a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.4);
-         --brand-experiment-45a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.45);
-         --brand-experiment-50a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.5);
-         --brand-experiment-55a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.55);
-         --brand-experiment-60a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.6);
-         --brand-experiment-65a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.65);
-         --brand-experiment-70a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.7);
-         --brand-experiment-75a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.75);
-         --brand-experiment-80a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.8);
-         --brand-experiment-85a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.85);
-         --brand-experiment-90a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.9);
-         --brand-experiment-95a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.95);
-         --rs-small-spacing: 2px;
-         --rs-medium-spacing: 3px;
-         --rs-large-spacing: 4px;
-         --rs-small-width: 2px;
-         --rs-medium-width: 3px;
-         --rs-large-width: 4px;
-         --rs-avatar-shape: 50%;
-         --rs-online-color: #43b581;
-         --rs-phone-color: #0099ff;
-         --rs-idle-color: #faa61a;
-         --rs-dnd-color: #f04747;
-         --rs-offline-color: #636b75;
-         --rs-streaming-color: #643da7;
-         --rs-invisible-color: #747f8d;
-         --rs-phone-visible: none;
-         /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-         --badge-size: 22px;
-         --badge-margin: 1.5px;
-         --badges-everywhere-size: 15px;
-         --accent: 50, 131, 207;
-         --message-padding: 10px;
-         --message-spacing: 10px;     
-  
-/*glow radial status*/ /*must end in px*/
-  --rs-small-spacing:0px;
-  --rs-large-spacing:0px;
-  --rs-medium-spacing:0px;
-  --rs-small-width: 2.5px; 
-  --rs-medium-width: 3.5px; 
-  --rs-large-width: 4.5px; 
-  --rs-avatar-shape:50%;
-  --rs-online-color:#1df594;
-  --rs-idle-color:#faa61a;
-  --rs-dnd-color:#f04747;
-  --rs-offline-color:#636b75;
-  --rs-streaming-color:#643da7;
-  --rs-invisible-color:#636b75;
-  --rs-phone-visible:block;
-  --rs-phone-color:var(--rs-online-color);
+    --user-name: "Glowing.User";
+    --font-name: Poppins;
+    --font-size: 15px;
+    
+
+    /*glow radial status*/ /*must end in px*/
+    --rs-small-spacing:0px;
+    --rs-large-spacing:0px;
+    --rs-medium-spacing:0px;
+    --rs-small-width: 2.5px; 
+    --rs-medium-width: 3.5px; 
+    --rs-large-width: 4.5px; 
+    --rs-avatar-shape:50%;
+    --rs-online-color:#1df594;
+    --rs-idle-color:#faa61a;
+    --rs-dnd-color:#f04747;
+    --rs-offline-color:#636b75;
+    --rs-streaming-color:#643da7;
+    --rs-invisible-color:#636b75;
+    --rs-phone-visible:block;
+    --rs-phone-color:var(--rs-online-color);
+    /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    --accentcolor:	  255, 0, 64;	
+    /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    --accentcolorV2:     #fb5454;
+    
+    
+    /*settings modal root*/
+    --themelightsettingsmodalbackground: rgb(223, 223, 223);
+    --themedarksettingsmodalbackground: rgba(51, 49, 53, 0);
+    --themedarksettingsmodalwidth: 960px;
+    --themedarksettingsmodalheight: 100vw;	
+    
+    /*background image*/ /*(replace the link to use)*/
+    --background-image:var(--de-suggested-bg);
+    /*bg dev suggestions*/
+    --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
+    --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
+    /*modern background selection*/
+    --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
+    --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
+
+    --custom-background: var(background-image);
+    --background-radius: 0px;
+    --blurple: #ff004060;
+    --blurple3: #ff004052;
+    --grey: #2e2c2c4f;
+    --lightgrey: #000000;
+    --darkgrey: #0a0a0a;
+    --red: #fd1547;
+    --blurple-gradient: linear-gradient(0deg, rgb(24, 24, 24) 0%, rgba(202, 15, 15, 0.671) 70%);
+    --darkgrey-gradient: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(59, 59, 59) 100%);
+    --scrollbar-thin-thumb: var(--blurple3);
+    --scrollbar-auto-track: var(--darkgrey);
+    --scrollbar-auto-thumb: var(--blurple3);
+    --scrollbar-auto-scrollbar-color-thumb: var(--blurple3);
+    --scrollbar-auto-scrollbar-color-track: var(--blurple3);
+    --backgroundposition: center;
+    --backgroundsize: cover;
+    --backgroundblur: 0px;
+    --font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --default: transparent;
+    --settingsicons: 1; 
+    --radius: 8px;
+    --spacing: 6px;
+    --guildicon-size: 48;
+    --enable-if-using-favorites-experiment: 0;
+    --guildlist-collapse: 0;
+    --slide-window-on-hover: 0;
+
+    --sidebar-transition-duration: 0.4s;
 
 
-/*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-/*  --accentcolor:	  251, 84, 84;	*/
-/*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-/*  --accentcolorV2:     #fb5454;*/
-     
-     
-/*settings modal root*/
-  --themelightsettingsmodalbackground: rgb(223, 223, 223);
-  --themedarksettingsmodalbackground: rgb(51, 49, 53);
-  --settingsmodalwidth: 960px;
-  --settingsmodalheight: 80vh;	
+    --float-members-width: 65px;
+    --members-hover-width: 240px;
+    --members-hover-delay: 1.5s;
+    --members-transition-duration: 0.4s;
+    --topic-opacity: 1;
 
-     
+    --textarea-buttons-gif: flex;
+    --textarea-buttons-sticker: flex;
+    --textarea-buttons-gift: none;
+    --transparencycolor: 0, 0, 0;
+    --transparencyalpha: 0.01;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.15;
+    --chatinputtransparency: 0.0;
+    --textshadow: transparent;
+    --popout: var(--backdrop);
+    --popoutposition: var(--backgroundposition);
+    --popoutsize: var(--backgroundsize);
+    --popoutblur: var(--backgroundblur); 
+    --backdrop: var(--background-image); 
+    --backdropposition: left;
+    --backdropsize: cover;
+    --textbrightest: 255, 255, 255;
+    --textbrighter: 222, 222, 222;
+    --textbright: 200, 200, 200;
+    --textdark: 160, 160, 160;
+    --textdarker: 125, 125, 125;
+    --textdarkest: 90, 90, 90;
+    --float-guildlist-width-correction: 0px;
+    --home-icon: url('https://i.imgur.com/w88O4bb.png');
+    --favorites-icon: url('https://i.imgur.com/XyyvpsS.png');
+    --button-positive-background-hover: rgba(69, 69, 69, 0.562);
+    --button-positive-background-active: rgba(85, 78, 78, 0.623);
+    --brand-experiment: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
+    --brand-experiment-100: hsl(359, calc(var(--saturation-factor, 1)*41%), 98%);
+    --brand-experiment-130: hsl(359, calc(var(--saturation-factor, 1)*41%), 92.8%);
+    --brand-experiment-160: hsl(359, calc(var(--saturation-factor, 1)*41%), 87.7%);
+    --brand-experiment-200: hsl(359, calc(var(--saturation-factor, 1)*41%), 82.5%);
+    --brand-experiment-230: hsl(359, calc(var(--saturation-factor, 1)*41%), 77.3%);
+    --brand-experiment-260: hsl(359, calc(var(--saturation-factor, 1)*41%), 72.2%);
+    --brand-experiment-300: hsl(359, calc(var(--saturation-factor, 1)*41%), 67%);
+    --brand-experiment-330: hsl(359, calc(var(--saturation-factor, 1)*41%), 61.8%);
+    --brand-experiment-360: hsl(359, calc(var(--saturation-factor, 1)*41%), 56.7%);
+    --brand-experiment-400: hsl(359, calc(var(--saturation-factor, 1)*41%), 51.5%);
+    --brand-experiment-430: hsl(359, calc(var(--saturation-factor, 1)*41%), 46.3%);
+    --brand-experiment-460: hsl(359, calc(var(--saturation-factor, 1)*41%), 41.2%);
+    --brand-experiment-500: hsl(359, calc(var(--saturation-factor, 1)*41%), 36%);
+    --brand-experiment-530: hsl(359, calc(var(--saturation-factor, 1)*30.8%), 33.3%);
+    --brand-experiment-560: hsl(359, calc(var(--saturation-factor, 1)*24.6%), 30.5%);
+    --brand-experiment-600: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 27.8%);
+    --brand-experiment-630: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 25%);
+    --brand-experiment-660: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 22.3%);
+    --brand-experiment-700: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 19.5%);
+    --brand-experiment-730: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 16.8%);
+    --brand-experiment-760: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 14%);
+    --brand-experiment-800: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 11.3%);
+    --brand-experiment-830: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 8.5%);
+    --brand-experiment-860: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 5.8%);
+    --brand-experiment-900: hsl(359, calc(var(--saturation-factor, 1)*22.5%), 3%);
+    --brand-experiment-05a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.05);
+    --brand-experiment-10a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.1);
+    --brand-experiment-15a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.15);
+    --brand-experiment-20a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.2);
+    --brand-experiment-25a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.25);
+    --brand-experiment-30a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.3);
+    --brand-experiment-35a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.35);
+    --brand-experiment-40a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.4);
+    --brand-experiment-45a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.45);
+    --brand-experiment-50a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.5);
+    --brand-experiment-55a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.55);
+    --brand-experiment-60a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.6);
+    --brand-experiment-65a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.65);
+    --brand-experiment-70a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.7);
+    --brand-experiment-75a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.75);
+    --brand-experiment-80a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.8);
+    --brand-experiment-85a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.85);
+    --brand-experiment-90a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.9);
+    --brand-experiment-95a: hsla(359, calc(var(--saturation-factor, 1)*41%), 36%, 0.95);
+    /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --badge-size: 15px;
+    --badge-margin: 1px;
+    --badges-everywhere-size: 15px;
+    --accent: 50, 131, 207;
+    --message-padding: 10px;
+    --message-spacing: 10px;
 }
 
+/*friends grid banner colour*/
+.theme-dark{
+--FG-cards-banner-background: transparent!important;
+}
+.theme-light{
+--FG-cards-banner-background: transparent!important;
+} 
 
 /*discord transparency*//*roots*/ /*theme dark*/
   .theme-dark {
@@ -269,7 +211,7 @@
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-tertiary: transparent;
-  --background-accent: rgb(36, 36, 36);
+  --background-accent: rgba(36, 36, 36, 0);
   --activity-card-background: transparent;
   --deprecated-panel-background: transparent;
 }
@@ -300,13 +242,57 @@
 .theme-light{
 --FG-cards-banner-background: transparent!important;
 } 
-.appDevToolsWrapper-1QxdQf {
-    margin: 20px;
-    border-radius: 20px;
-    background: rgb(0, 0, 0); 
-    border-color: #f04747;
+
+.accountList-305sx3 {
+  background: var(--background-alt);
+}
+.children-1xdcWE > .flex-1xMQg5.flex-3BkGQD {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  padding: 16px;
+}
+.micTest-bjZA-b {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  padding: 16px;
+  margin-top: 20px;
+}
+.micTest-bjZA-b .marginTop8-24uXGp {
+  margin-top: 0;
+}
+.container-3NTP7o {
+  width: 530px !important;
+}
+notches-2w7UZJ {
+  background: none;
 }
 
+.paymentPane-ut5qKZ {
+  background: var(--background-alt);
+}
+.paginator-1eqD2g {
+  background: transparent;
+}
+.bottomDivider-ZmTm-j {
+  border: none;
+}
+.bottomDivider-ZmTm-j::-webkit-scrollbar {
+  display: none;
+}
+.payment-2bOh4k {
+  background: transparent;
+}
+.payment-2bOh4k:hover {
+  background: var(--background-light-alt);
+}
+.payment-2bOh4k:not(.hoverablePayment-lE1s4t) {
+  background: var(--background-light);
+  padding-bottom: 20px;
+}
+.expandedInfo-1W31i3 {
+  background: var(--background-light-alt);
+  margin: 0 20px;
+}
 /* Channel Tabs */
 /*#channelTabs-container {
     --tabcontainer: radial-gradient(circle, rgba(34, 31, 29, 0.979) 30%, rgb(0, 0, 0) 70%);
@@ -404,7 +390,7 @@
 }
 
 .contentWrapper-3vHNP2 {
-    background-color: rgba(54, 54, 54, 0.808) !important;
+    background-color: rgba(255, 255, 255, 0.808) !important;
     backdrop-filter: blur(10px) !important;
     border-radius: 16px !important;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
@@ -455,7 +441,6 @@
     width: 100px !important;
     height: 100px !important;
     color: rgba(7, 0, 0, 0);
-    background-color: trasparient !important;
     background-color: var(--blurple);
     box-sizing: border-box !important;
 }
@@ -476,13 +461,13 @@
     -webkit-transition: background-color .15s ease-out, color .15s ease-out;
     transition: background-color .15s ease-out, color .15s ease-out;
     background-color: rgba(0, 0, 0, 0) !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
     box-sizing: border-box 100px !important;
 }
 
 .svg-2zuE5p {
     box-sizing: content-box;
-    position: relative !important;
+    position: sticky !important;
     top: 10;
     left: 0;
     width: 100%;
@@ -508,7 +493,27 @@
 .platform-win .winButton-3UMjdg {
     border-radius: var(--radius);
     height: 32px !important;
+}
+.channelTabs-settingsIcon {
+    max-width: 32px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    max-height: 32px;
+    color: #faa61a !important;
+    background: transparent !important;
+}
 
+
+.full-motion .animatorTop-3ltI52.didRender-2SiRlm {
+    -webkit-transform: unset !important;
+    transform: unset !important;
+    -webkit-transition: opacity 0.15s linear 0s;
+    transition: opacity 0.15s linear 0s;
+}
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--blurple);
 }
 :root .panels-3wFtMD,
 .container-YkUktl,
@@ -521,7 +526,6 @@
 .popout-1KHNAq {
     -webkit-text-stroke-color: var(--blurple);
     -webkit-text-fill-color: aliceblue;
-    -webkit-column-rule-color: red;
     -webkit-box-sizing: border-box;
     box-sizing: content-box;
     background-color: rgba(54, 54, 54, 0.616) !important;
@@ -538,34 +542,40 @@
     background: transparent;
 }
 
-/*Permissions*/
-/*
--You do not have the rights to use our theme name Chillax™ on other projects 
--You do not have the rights to remove our theme watermark in the theme
--You do not have the rights to change this theme author name to anyone
-*/
-     
-/*credits*/
-/*
-========================= Chillax Squad =========================
- Wq                                       Author
- Demented_Elmo                            Co-Author
-=================================================================
- Embeds                                   by Alexis WyvernZu
- Active Now CSS                           by Cedrick
- Memberlist until hover                   by Cedrick
- Hide User Buttons until Hover            by Commie Axolotl
- Center profile badge, avatar and name    by Commie Axolotl
- Blurple recolour                         by DevilBro
- Emoji Replace                            by DevilBro
- Settings Icons                           by DevilBro
- Connection Issue Let Me Be               by Disease
- Radial Status                            by Gibbu
- About Me Clamp                           by ItMeSarah
- Better Jump to Present Button            by Lonk
- Better Mark As Read Button               by Lonk
- IconPack                                 by Lavender
- Discolored                               by Nyri4
- Better Spotify Control                   by Uri
-=================================================================
-*/
+.wrapper-NhbLHG {
+  height: auto;
+  margin-bottom: 2px;
+}
+.wrapper-NhbLHG.modeMuted-2T4MDZ .name-28HaxV {
+  color: var(--text-muted);
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe .icon-2W8DHg {
+  color: var(--text-focus);
+}
+.wrapper-NhbLHG.modeSelected-3DmyhH .icon-2W8DHg {
+  color: var(--text-focus);
+}
+.wrapper-NhbLHG.modeSelected-3DmyhH:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  height: calc(100% - 2px);
+  width: 4px;
+  background: rgb(var(--accent), 1);
+  z-index: 1;
+}
+.wrapper-NhbLHG.typeThread-2Aqh6X .content-1gYQeQ {
+  padding-left: 42px;
+}
+
+
+/*#channelTabs-container{padding:3px;border-color:#000000;border-width: 3px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);border-color: #000000;border-width: 3px;}
+.wrapper-1_HaEi{margin-top:var(--spacing);border-color: #000000; border-width: 3px;}
+.app-2CXKsg{background:var(--blurple);border-color: #000000; border-width: 3px;}
+#channelTabs-container{
+    border-radius:20px !important;
+    border-color:rgb(0, 0, 0);
+    margin-bottom:calc(var(--spacing) 3px);
+    padding:0px!important;
+}*/
