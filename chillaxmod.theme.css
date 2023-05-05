@@ -47,7 +47,7 @@
     --rs-offline-color:#636b75;
     --rs-streaming-color:#643da7;
     --rs-invisible-color:#636b75;
-    --rs-phone-visible:block;
+    --rs-phone-visible:none;
     --rs-phone-color:var(--rs-online-color);
     /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
     --accentcolor:	  255, 0, 64;	
