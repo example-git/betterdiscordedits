@@ -59,7 +59,7 @@
     --themelightsettingsmodalbackground: rgb(223, 223, 223);
     --themedarksettingsmodalbackground: rgba(51, 49, 53, 0);
     --themedarksettingsmodalwidth: 960px;
-    --themedarksettingsmodalheight: 100vw;	
+    --themedarksettingsmodalheight: 75%;	
     
     /*background image*/ /*(replace the link to use)*/
     --background-image:var(--de-suggested-bg);
