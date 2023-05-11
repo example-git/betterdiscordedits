@@ -1,9 +1,123 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@100;300;400;500;700&display=swap');
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
+/*@import url('https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css');*/
+.navButton-1XuvI- {
+  border-radius: 50px;
+  font-weight: 500;
+  border: 30px solid blur;
+}
+.guilds-2JjMmN {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.listItem-3SmSlK > *,
+.toolbar-3_r2xA > *,
+.platform-win .topicClickTarget-2GMi99,
+.cursorPointer-3JF56F.title-17SveM,
+.sidebarRegion-1VBisG,
+.closeButton-PCZcma,
+[class*=menu-][role=menu] {
+  -webkit-app-region: no-drag;
+}
+.listItem-3SmSlK {
+  width: 100%;
+  height: 100
+}
+expandedFolderBackground-1kSAf6 {
+  left: 85px;
+  right: 85px;
+}
+.theme-light .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+  background-color: var(--background-floating-40a);
+}
+
+.sidebar-1tnWFu {
+  width: var(--sidebar-width);
+  --channel-icon: var(--brand-experiment);
+  --elevation-low: 0px 1px 0px 0px hsl(var(--background-accent-hue), 6%, 0%, 0.8), 0 2px 0 hsl(var(--accent-hue), 6%, 0%, 0.1);
+}
+.sidebar-1tnWFu .channel-1Shao0 {
+  max-width: 125px;
+}
+theme-dark,
+theme-light {
+  --float-guildlist-width-correction: 0;
+}
+
+.rolesTable-11lOYY {
+    background-color: var(--background-secondary);
+    border-top: var(--background-secondary-border);
+    border-left: var(--background-secondary-border);
+    border-right: var(--background-secondary-border);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tableHeader-6gvH38 {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: -8px;
+    padding: 1px;
+}
+
+.roleRow-230vCm:nth-child(even) {
+    background: var(--background-secondary);
+}
+
+.roleRow-230vCm:nth-child(odd) {
+    background: var(--background-primary);
+}
+#app-mount .roleRow-230vCm:hover {
+  background: var(--brand-experiment);
+}
+
+.roleRow-230vCm:hover .text-md-normal-2rFCH3 {
+  color: #fff !important;
+}
+
+.roleRow-230vCm:hover .memberCountContainer-2sIXRp {
+  color: #fff;
+}
+
+#app-mount .memberSpacing-1e6OH3 {
+    flex-grow: 50 50 50;
+}
+
+.roleNameSpacing-ss4Ir8 {
+    -webkit-box-flex: 100;
+    -flex: 0 10 ;
+    flex-grow: 10vw 10vw 10vw;
+}
+
+.roleRow-230vCm:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: var(--background-secondary-border);
+}
+
+.emptyRoles-2rJGCl,
+.roleRow-230vCm {
+    padding-top: 1px;
+    height: 42px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 8px;
+}
+
+.roleRow-230vCm {
+    position: 0;
+    border-radius: 2;
+    border-left: var(--background-secondary-border);
+    border-right: var(--background-secondary-border);
+}
+
+.roleRow-230vCm:before,
+.roleRow-230vCm:last-child:after {
+    display: display-box;
+}
 
 :root {
   --accent-hue: 359;
@@ -27,21 +141,24 @@
   --window-opacity: 30%;
   --window-blur: 46;
   --window-friends-blur: 50;
-  --window-margin: 10;
+  --window-margin: 30;
   --window-margin-left: 6;
   --window-border-radius: 26px;
   --window-background-lightness: -0.53;
   --window-accent-tint-strength: 27%;
-  --chat-bubble: 1;
+  --chat-bubble: 2;
   --text-link-hue: 359;
   --chat-text-brightness: 0.82;
   --home-icon: url('https://i.imgur.com/w88O4bb.png');
   --favorites-icon: url('https://i.imgur.com/XyyvpsS.png');
   --dock-blur: 50;
   /* Blur intensity of the dock. */
-  --dock-border-radius: 0.5;
-  --sidebar-width: 291px;
-  --members-width: 246px;
+  --dock-border-radius: 100;
+  --dock-padding: 25px;
+  --sidebar-width: 250px;
+  --sidebar-left-padding: 5px;
+  --sidebar-right-padding: 5px;
+  --members-width: 250px;
   --sidebar-text-brightness: 0.76;
   --background-floating-blur: 40px;
   --floating-background-lightness: -1;
